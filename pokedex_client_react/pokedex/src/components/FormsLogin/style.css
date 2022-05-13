@@ -1,0 +1,70 @@
+.inputLogin{
+    width: 300px;
+    height: 43px;
+    background: #FFFFFF;
+    border-radius: 37px;
+    border: 0;
+    padding: 1px 20px;
+}
+
+.field-user{
+    font-size: 15px;
+    color:#FFFFFF;
+    padding: 0px 15px;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.campo{
+    margin: 5px;
+}
+
+.forgot{
+    color: #FFCB05;
+    text-decoration: underline;
+    font-size: 12px;
+    padding: 1px 20px;
+}
+
+.forgot:hover{
+    cursor: pointer;
+}
+
+.ButtonIn{
+    background-color: #154A86;
+    border-radius: 69px;
+    width: 300px;
+    height: 45px;
+    color: white;
+    font-weight: 600;
+    border: 0px;
+    font-size: 18px
+}
+
+.ButtonIn:hover{
+    cursor: pointer;
+}
+
+.cadastro-modal{
+    color: white;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color:white
+}
+
+.AllItensLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divButton{
+    margin: 20px 0px
+}

@@ -1,0 +1,66 @@
+.allScreen{
+    display: flex;
+    flex-direction: row;
+}
+
+.side-menu{
+    background-color: #BD2C25;
+    height: 100vh;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.homeImg{
+    width: 60%;
+    margin: 40px 30px;
+}
+
+.imag{
+    width: 100%;
+}
+
+.imag:hover{
+    cursor: pointer;
+}
+
+.Menu{
+    padding: 0px 25px;
+    color: white;
+    font-weight: 600;
+}
+
+.LogoandMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuItem, .menuItem1, .menuItem2, .menuItem3{
+    margin-top: 20px;
+}
+
+.menuItem:hover, .menuItem1, .menuItem2:hover, .menuItem3{
+    cursor: pointer;
+}
+
+.menuItem:active{
+    color: #FFCB05
+}
+.Logout-button{
+    width: 40%;
+    color: white;
+    font-weight: 500;
+    margin: 40px 20px;
+}
+
+.exitIcon{
+    padding-right: 10px;
+}
+
+.Logout-button:hover{
+    cursor: pointer;
+}

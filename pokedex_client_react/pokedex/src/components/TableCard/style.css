@@ -1,0 +1,51 @@
+.AllCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    max-height: 65vh;
+    overflow-y: scroll;
+    
+}
+
+.individual-card{
+    width: 20%;
+    height: 38vh;
+    margin: 1% 6% ;
+    box-shadow: 5px 5px 5px rgb(167, 167, 167);
+    border-radius: 14px
+}
+
+.topDiv{
+    background-color: #F4F4F4;
+    height: 60%;
+    border-radius: 14px 14px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottomDiv{
+    background-color: #09203B;
+    border-radius: 0px 0px 14px 14px;
+    color: white;
+    padding: 12px;
+}
+
+.name{
+    font-size: 16px;
+}
+
+.status{
+    font-size: 12px;
+}
+
+.imgPokes{
+    width: 70%;
+}
+
+.notFound{
+    margin: 2%;
+    font-weight: 800;
+    font-size: larger;
+}

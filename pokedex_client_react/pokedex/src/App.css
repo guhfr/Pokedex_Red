@@ -1,0 +1,49 @@
+.App {
+  background-color: #BD2C25;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+input, label {
+  display:block;
+}
+
+.login-screen{
+  height: 100%;
+  width: 40%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-img{
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+
+.back-img{
+  max-width: 60%;
+  object-fit: cover;
+  z-index: 0;
+  height: 100vh;
+  position: absolute;
+}
+
+.line{
+  height: 100vh;
+  z-index: 1;
+  position: absolute;
+}
+
+.elipse{
+  left: 38%;
+  top:40vh;
+  height: 20vh;
+  z-index: 2;
+  position: absolute;
+}
